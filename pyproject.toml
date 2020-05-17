@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "learning_pandas"
+version = "0.1.0"
+description = ""
+authors = ["Kuba Karmiński <jlkarminski@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.0.3"
+jupyter = "^1.0.0"
+jupyterlab = "^2.1.2"
+matplotlib = "^3.2.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
